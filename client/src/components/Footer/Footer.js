@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/mouse-events-have-key-events */
 import { Container } from '@material-ui/core';
 import React, { useState } from 'react';
 import gitHubLogo from '../../assets/images/GitHub-Mark-32px.png';
@@ -8,7 +9,7 @@ import SlavaImage from '../../assets/images/team/slava.jpg';
 import NastiaImage from '../../assets/images/team/nastia.jpg';
 import MashaImage from '../../assets/images/team/masha.jpg';
 import MaksimImage from '../../assets/images/team/maksim.jpg';
-/* eslint-disable jsx-a11y/mouse-events-have-key-events */
+
 export default function Footer() {
   const [modalActive, setModalActive] = useState(false);
   const [image, setImage] = useState();
