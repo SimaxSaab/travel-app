@@ -16,7 +16,8 @@ const fetchCurrfail = (error) => ({
   payload: error,
 });
 
-const fetchcurrency = (curr = 'EUR') => (dispatch) => {
+// const fetchcurrency = (curr = 'EUR') => (dispatch) => {
+const fetchcurrency = () => (dispatch) => {
   dispatch(fetchCurrRequest);
 
   // axios.get(`http://api.exchangeratesapi.io/v1/latest?access_key=24748a894f8066572db39383ece2c362&base=${curr}`)
